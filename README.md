@@ -5,7 +5,7 @@ Microprocessor laboratory coursework · National Technical University of Athens
 
 C and AVR Assembly exercises exploring how software interacts with hardware: bit operations and interrupt handling, analog acquisition, I²C peripherals and temperature sensing.
 
-The collection contains **seven laboratory folders and 26 source files**, including alternative versions. Each lab page explains its application and control flow so the work can be understood without opening the code.
+The collection contains **eight laboratory folders and 29 source files**, including alternative versions and a recovered intermediate Lab 8 snapshot. Each lab page explains its application and control flow so the work can be understood without opening the code.
 
 ## Explore the work
 
@@ -18,6 +18,7 @@ The collection contains **seven laboratory folders and 26 source files**, includ
 | [05 · I²C peripherals](lab-05/README.md) | Logic outputs, keypad input and LCD via a port expander | TWI transactions, register addressing, PCA9555 |
 | [06 · Matrix keypad applications](lab-06/README.md) | Key display and a two-digit combination exercise | Row scanning, debouncing, edge detection, state machine |
 | [07 · Temperature sensing](lab-07/README.md) | DS18B20 presence detection and temperature display | Bit-banged 1-Wire, signed data, I²C LCD |
+| [08 · UART and IoT](lab-08/README.md) | Sensor readings, status display and gateway payloads; intermediate source snapshot | UART, ESP8266 command handling, JSON formatting |
 
 ## A closer look
 
@@ -54,7 +55,7 @@ flowchart LR
 
 The archive contains alternative and intermediate versions. Historical course testing does not establish that every saved variant is the exact version used in the assessment. Timing values describe source settings, not newly measured performance.
 
-Known issues in the saved variants are recorded in the lab pages, including the unassigned averaging expression in Lab 3.3. Lab 8 was part of the coursework, but its complete final firmware has not yet been recovered: the saved main file stops at an LCD test and leaves the application flow commented out.
+Known issues in the saved variants are recorded in the lab pages, including the unassigned averaging expression in Lab 3.3. [Lab 8](lab-08/README.md) now includes three files recovered from the parent folder. Its saved main function is an LCD test, with the IoT flow commented out and two library interfaces missing; the final firmware still needs to be recovered.
 
 [Verification plan and known limitations →](docs/VERIFICATION.md)
 

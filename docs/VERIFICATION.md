@@ -19,6 +19,7 @@ The archive contains intermediate and alternative sources, so the exact assessed
 | I²C routines | Several waits have no timeout | Test missing-device and bus-fault behavior |
 | Lab 7 | No complete scratchpad CRC check | Add integrity handling if extending beyond the lab |
 | Alternative versions | Multiple 2.3 and 6.1 programs | Match the saved variants to the versions used in the course assessment |
+| Lab 8 | Active LCD test; commented application; missing UART/1-Wire interfaces and inconsistent linkage declarations | Recover the final firmware and confirm its dependency set before building |
 
 ## Evidence to collect
 
@@ -31,5 +32,6 @@ The archive contains intermediate and alternative sources, so the exact assessed
 | 05 | I²C transaction capture and keypad/LCD demo |
 | 06 | Key press/release behavior and both combination outcomes |
 | 07 | Presence/disconnection and raw-temperature formatting checks |
+| 08 | Gateway receipt of synthetic payloads, LCD output and connection-failure cases using the final firmware |
 
 Real captures should identify firmware version, board, toolchain, clock and test conditions. Expected examples should be labeled separately from observed output.

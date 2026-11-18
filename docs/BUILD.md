@@ -4,6 +4,8 @@
 
 Each subexercise has its own entry point or reset vector. Build alternatives separately. Lab 4.3 requires both `4_3.c` and `lcd_4bit.c`.
 
+Lab 8 is a recovered intermediate snapshot, not a complete build target. It still requires the `USART.h` and `owi_ds18b20.h` interfaces and implementations, a review of linkage between `lcd_twi.h` and `lcd_twi.c`, and restoration of the application flow. See its [snapshot notes](../lab-08/README.md).
+
 ## C toolchain
 
 Use an AVR C toolchain and device pack supporting **ATmega328PB**, with avr-libc headers. Source generally assumes **16 MHz**. Define F_CPU in the project settings too: in 3.2 its source definition appears after the delay header.
