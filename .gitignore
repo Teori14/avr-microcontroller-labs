@@ -1,0 +1,15 @@
+build/
+dist/
+*.elf
+*.hex
+*.o
+*.map
+*.lst
+*.cof
+*.obj
+*.eep
+*.d
+nbproject/private/
+.vscode/
+.DS_Store
+Thumbs.db
