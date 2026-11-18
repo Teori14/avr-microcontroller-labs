@@ -50,14 +50,16 @@ flowchart LR
 
 ## Verification status
 
-These coursework implementations were recovered from the original source archive. Source and documentation review has been performed; **the publication copy has not yet been rebuilt or retested on hardware**. Timing values describe source settings, not measured performance.
+**The laboratory work was implemented collaboratively, tested on the course hardware, and assessed during the course.** This repository was assembled later from the saved source archive; no new hardware run was performed when preparing it.
 
-Known issues are recorded in the lab pages, including the unassigned averaging expression in Lab 3.3. Lab 8 awaits a complete source set: its available application flow is commented out and is not included as an implemented lab.
+The archive contains alternative and intermediate versions. Historical course testing does not establish that every saved variant is the exact version used in the assessment. Timing values describe source settings, not newly measured performance.
+
+Known issues in the saved variants are recorded in the lab pages, including the unassigned averaging expression in Lab 3.3. Lab 8 was part of the coursework, but its complete final firmware has not yet been recovered: the saved main file stops at an LCD test and leaves the application flow commented out.
 
 [Verification plan and known limitations →](docs/VERIFICATION.md)
 
 ## Academic context and attribution
 
-Prepared from the coursework archive of **Theodoros Rimagmos**, School of Electrical and Computer Engineering, NTUA. Individual contributions and collaborator credits are being confirmed before public release; this repository does not attribute all code to one author.
+Developed collaboratively as coursework at the School of Electrical and Computer Engineering, NTUA. Repository prepared from the archive of **Theodoros Rimagmos**.
 
 The laboratory summaries use original English wording based on the implementations. Course handouts, reference reports and vendor device packs are not redistributed.

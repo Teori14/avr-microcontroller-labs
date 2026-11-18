@@ -14,6 +14,6 @@ The program writes its position to PORTD, checks for an endpoint, selects direct
 
 ## Evidence to add
 
-A simulator trace can show register and port changes. A short LED video with a timing trace would demonstrate the moving-bit sequence. The original `working` filenames are retained as archive labels, not independent verification claims.
+A simulator trace can show register and port changes. A short LED video with a timing trace would demonstrate the moving-bit sequence. The work was tested and assessed during the course. The original `working` filenames are retained; they do not distinguish the exact assessed version from other archived copies.
 
 [Setup](../docs/BUILD.md) · [Collection](../README.md)

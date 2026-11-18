@@ -20,6 +20,6 @@ The included 4-bit driver uses PD7..PD4 for data, PD3 for enable and PD2 for reg
 
 ## Review notes
 
-An original comment calls the filter a four-sample average, but the expression implements exponential smoothing. The blink state toggles every 250 ms, giving a full on/off period of 500 ms. Hardware results remain to be recorded.
+An original comment calls the filter a four-sample average, but the expression implements exponential smoothing. The blink state toggles every 250 ms, giving a full on/off period of 500 ms. The work was tested and assessed during the course. Photos and traces have not yet been attached to this archive.
 
 [Setup](../docs/BUILD.md) · [Collection](../README.md)

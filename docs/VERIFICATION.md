@@ -4,7 +4,9 @@
 
 The source files were mapped to labs and given language-appropriate extensions. Greek comments were translated; comments already damaged into question marks were rewritten from the surrounding implementation. Lab 4.3 filenames were aligned with its include directives. Functional code was retained during this editorial pass.
 
-No new compiler, simulator or board result is claimed. Contributors still need to confirm tested versions and individual roles before a public portfolio release.
+The laboratory work was tested on the course hardware and assessed during the course, as confirmed by the repository owner. This publication workflow did not repeat those runs. Photos, traces and logs from new demonstrations have not yet been attached.
+
+The archive contains intermediate and alternative sources, so the exact assessed version must still be distinguished from other saved variants. Known issues below concern those archived files and do not imply that the course work was never tested.
 
 ## Review items
 
@@ -16,7 +18,7 @@ No new compiler, simulator or board result is claimed. Contributors still need t
 | Lab 5.2 | Comment assumes expander pull-ups | Check device documentation and board resistors |
 | I²C routines | Several waits have no timeout | Test missing-device and bus-fault behavior |
 | Lab 7 | No complete scratchpad CRC check | Add integrity handling if extending beyond the lab |
-| Alternative versions | Multiple 2.3 and 6.1 programs | Identify submitted and hardware-tested versions |
+| Alternative versions | Multiple 2.3 and 6.1 programs | Match the saved variants to the versions used in the course assessment |
 
 ## Evidence to collect
 

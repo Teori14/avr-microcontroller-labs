@@ -12,7 +12,7 @@ Button events drive counters and timed output sequences. Interrupt handlers sign
 
 The indicator group is enabled for one second, followed by the lamp-only interval. Another INT1 event requests a restart. The revised C version checks this request during repeated one-millisecond waits, making the delay interruptible.
 
-The four 2.3 files are alternative programs. The original C version checks for events at coarser intervals. The contributors still need to identify which versions were submitted and tested on hardware.
+The four 2.3 files are alternative programs. The original C version checks for events at coarser intervals. The work was tested and assessed during the course; the saved alternatives still need to be matched to the assessed version.
 
 ## Evidence to add
 
